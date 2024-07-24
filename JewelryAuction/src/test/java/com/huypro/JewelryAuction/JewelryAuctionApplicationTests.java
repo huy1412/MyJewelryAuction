@@ -1,0 +1,13 @@
+package com.huypro.JewelryAuction;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class JewelryAuctionApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
