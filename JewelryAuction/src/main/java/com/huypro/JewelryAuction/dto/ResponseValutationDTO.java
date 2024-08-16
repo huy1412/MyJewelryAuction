@@ -2,25 +2,25 @@ package com.huypro.JewelryAuction.dto;
 
 import com.huypro.JewelryAuction.entity.RequestValuationE;
 import com.huypro.JewelryAuction.statusEnum.ResponseValuationStatus;
-import jakarta.persistence.*;
 import lombok.Data;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+
 @Data
-public class ResponseValutation {
+public class ResponseValutationDTO {
 
     private long id;
     private BigDecimal valuationPriceMin;
     private BigDecimal valuationPriceMax;
     private LocalDateTime timeResponse;
-    private RequestValuationE requestValuation;
+    private RequestValuationDTO requestValuation;
     private ResponseValuationStatus status;
 
-    public ResponseValutation() {
+    public ResponseValutationDTO() {
     }
 
-    public ResponseValutation(long id, BigDecimal valuationPriceMin, BigDecimal valuationPriceMax, LocalDateTime timeResponse, RequestValuationE requestValuation, ResponseValuationStatus status) {
+    public ResponseValutationDTO(long id, BigDecimal valuationPriceMin, BigDecimal valuationPriceMax, LocalDateTime timeResponse, RequestValuationDTO requestValuation, ResponseValuationStatus status) {
         this.id = id;
         this.valuationPriceMin = valuationPriceMin;
         this.valuationPriceMax = valuationPriceMax;

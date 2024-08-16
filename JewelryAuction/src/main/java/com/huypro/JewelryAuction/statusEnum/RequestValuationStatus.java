@@ -1,6 +1,6 @@
 package com.huypro.JewelryAuction.statusEnum;
 
-public enum ValuationRequestStatus {
+public enum RequestValuationStatus {
     REQUESTED,
     PRELIMINARY_VALUATED,
     PRODUCT_RECEIVED,

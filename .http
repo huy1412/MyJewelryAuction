@@ -1,0 +1,17 @@
+POST http://localhost:8080/makeRequest
+Content-Type: application/json
+
+{
+  "id": 2,
+  "timeRequest": "2024-09-12T14:20:00",
+  "estimatePriceMax": 5000,
+  "estimatePriceMin": 2000,
+  "description": "very good",
+  "productDTO": {
+    "id": 1,
+    "categoryDTO": {
+      "id": 1
+    }
+  },
+  "status": "REQUESTED"
+}
