@@ -13,7 +13,6 @@ public class RequestValuationDTO {
     private long id;
     private LocalDateTime timeRequest;
     private BigDecimal estimatePriceMax;
-    private BigDecimal estimatePriceMin;
     private String description;
     private String image;
     private RequestValuationStatus status;
@@ -22,11 +21,11 @@ public class RequestValuationDTO {
 
     }
 
-    public RequestValuationDTO(long id, LocalDateTime timeRequest, BigDecimal estimatePriceMax, BigDecimal estimatePriceMin, String description, String image, RequestValuationStatus status) {
+    public RequestValuationDTO(long id, LocalDateTime timeRequest, BigDecimal estimatePriceMax, String description, String image, RequestValuationStatus status) {
         this.id = id;
         this.timeRequest = timeRequest;
         this.estimatePriceMax = estimatePriceMax;
-        this.estimatePriceMin = estimatePriceMin;
+
         this.description = description;
         this.image = image;
         this.status = status;

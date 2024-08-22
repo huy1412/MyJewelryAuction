@@ -24,8 +24,9 @@ public class ServiceRequestValuationImpl implements ServiceRequestValuation {
         requestValuationDTO.setStatus(RequestValuationStatus.REQUESTED);
         RequestValuationE requestValuation = RequestValuationM.mapToEntity(requestValuationDTO);
         requestR.save(requestValuation);
-        return  RequestValuationM.mapToDTO(requestValuation);
+        return RequestValuationM.mapToDTO(requestValuation);
     }
+
 
     @Override
     public List<RequestValuationDTO> ListRequestStatusREQUESTED() {

@@ -1,13 +1,8 @@
 package com.huypro.JewelryAuction.entity;
-
 import java.math.BigDecimal;
-
 import com.huypro.JewelryAuction.statusEnum.RequestValuationStatus;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -22,13 +17,12 @@ public class RequestValuationE {
     private LocalDateTime timeRequest;
     @Column
     private BigDecimal estimatePriceMax;
-    @Column
-    private BigDecimal estimatePriceMin;
+
     @Column
     private String description;
 
     @Lob
-    @Column(name = "image", columnDefinition = "BLOB",length = 1000)
+    @Column(name = "image", columnDefinition = "BLOB", length = 100000)
     private byte[] image;
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
 
@@ -44,11 +38,10 @@ public class RequestValuationE {
 
     }
 
-    public RequestValuationE(long id, BigDecimal estimatePriceMax, BigDecimal estimatePriceMin, String description, byte[] image, RequestValuationStatus status) {
+    public RequestValuationE(long id, BigDecimal estimatePriceMax, String description, byte[] image,RequestValuationStatus status) {
         this.id = id;
         this.timeRequest = timeRequest.now();
         this.estimatePriceMax = estimatePriceMax;
-        this.estimatePriceMin = estimatePriceMin;
         this.description = description;
         this.image = image;
         this.status = status;
