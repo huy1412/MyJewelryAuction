@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/MyJewelryAuction.iml" filepath="$PROJECT_DIR$/.idea/MyJewelryAuction.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/../staff.iml" filepath="$PROJECT_DIR$/../staff.iml" />
->>>>>>> 91916763ebd7cfdcab907af38fd8521befef3d18
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyJewelryAuction_font-end.iml" filepath="$PROJECT_DIR$/.idea/MyJewelryAuction_font-end.iml" />
     </modules>
   </component>
 </project>
