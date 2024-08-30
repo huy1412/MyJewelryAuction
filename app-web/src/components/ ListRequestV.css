@@ -1,0 +1,55 @@
+.list-request-v-container {
+    padding: 20px;
+    width: 100%; /* Ensures the container uses the full available width */
+    max-width: 1200px; /* Adjust this value to increase or decrease the maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e5e3dc;
+}
+
+.table-header th {
+    padding: 12px; /* Increase padding for a more spacious header */
+    text-align: left;
+    background-color: #f9f9f9;
+    color: coral;
+}
+
+.table-row {
+    border-top: 1px solid #e5e3dc;
+
+}
+
+.image-cell {
+    width: 150px; /* Increased width for larger images */
+    height: 150px; /* Increased height for larger images */
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.description,
+.status,
+.account-id,
+.owner,
+.price {
+    padding: 12px; /* Increase padding for more space around text */
+    
+}
+
+.button {
+    background-color: #f4f3f0;
+    color: #171611;
+    border-radius: 4px;
+    padding: 8px 12px; /* Increase padding for a larger button */
+    cursor: pointer;
+    border: none;
+}

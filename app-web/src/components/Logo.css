@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid #f3f1e7;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between logo and text */
+}
+
+.logo {
+    width: 90px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adjust spacing between buttons */
+
+}
+
+.button {
+    min-width: 84px;
+    max-width: 480px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50px; /* Fully rounded button */
+    height: 40px; /* Adjust height as needed */
+    padding: 0 20px;
+    background-color: red;
+    color: #e5e3dc;
+    line-height: 40px;
+}
