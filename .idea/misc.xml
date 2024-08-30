@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/JewelryAuction/pom.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="22" project-jdk-type="JavaSDK">
-=======
-  <component name="ProjectRootManager">
->>>>>>> 91916763ebd7cfdcab907af38fd8521befef3d18
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+<!--<<<<<<< HEAD-->
+<!--  <component name="ExternalStorageConfigurationManager" enabled="true" />-->
+<!--  <component name="MavenProjectsManager">-->
+<!--    <option name="originalFiles">-->
+<!--      <list>-->
+<!--        <option value="$PROJECT_DIR$/JewelryAuction/pom.xml" />-->
+<!--      </list>-->
+<!--    </option>-->
+<!--  </component>-->
+<!--  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="22" project-jdk-type="JavaSDK">-->
+<!--=======-->
+<!--  <component name="ProjectRootManager">-->
+<!--&gt;>>>>>> 91916763ebd7cfdcab907af38fd8521befef3d18-->
+<!--    <output url="file://$PROJECT_DIR$/out" />-->
+<!--  </component>-->
 </project>
