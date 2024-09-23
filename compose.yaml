@@ -2,8 +2,8 @@ version: '3'
 services:
   frontend:
     build:
-      context: /MyJewelryAuction
-      dockerfile: Dockerfile
+      context: ./font-end
+      dockerfile: font-end/Dockerfile
     ports:
       - "3000:3000"
     depends_on:
