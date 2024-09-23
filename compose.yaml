@@ -2,7 +2,7 @@ version: '3'
 services:
   frontend:
     build:
-      context: ./frontend
+      context: ./MỵJewelryAuction
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
@@ -11,7 +11,8 @@ services:
 
   backend:
     build:
-      context: ./backend
+      context: ./JewelryAuction
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
     environment:
