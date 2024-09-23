@@ -3,7 +3,7 @@ services:
   frontend:
     build:
       context: ./font-end
-      dockerfile: font-end/Dockerfile
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     depends_on:
