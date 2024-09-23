@@ -20,7 +20,7 @@ services:
       dockerfile: /MyJewelryAuction/JewelryAuction/Dockerfile
     ports:
       - "8080:8080"
-    entrypoint: ["java", "-jar", "JewelryAuction-0.0.1-SNAPSHOT.jar"]
+    entrypoint: ["java","-jar","JewelryAuction-0.0.1-SNAPSHOT.jar"]
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://myauction.c3kce2mquf6i.ap-southeast-1.rds.amazonaws.com:3306/myauction
       SPRING_DATASOURCE_USERNAME: admin
